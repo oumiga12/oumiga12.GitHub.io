@@ -11,6 +11,6 @@
 1．1逻辑回归的应用
 逻辑回归模型广泛用于各个领域，包括机器学习，大多数医学领域和社会科学。也是一个理解数据的好工具。
 但同时由于其本质上是一个线性的分类器所以不能应对较为复杂的数据情况。
-很多时候我们也会拿逻辑回归模型去做一些任务尝试的基线（基础水平〕。
+很多时候我们也会拿逻辑回归模型去做一些任务尝试的基线（基础水平）。
 
 转自：https://dsw-dev.data.aliyun.com/?spm=5176.20222472.J_3678908510.1.1a0b67c2UeRr4Y#/?fileUrl=http://tianchi-media.oss-cn-beijing.aliyuncs.com/DSW/1back/back.ipynb&fileName=back.ipynb
