@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## 天池龙珠计划 机器学习训练营 day1
+### 机器学习算法（一）：基于逻辑回归的分类预测
+#### 1逻辑回归的介绍和应用
+##### 1．1逻辑回归的介绍
+逻辑回归（logistic regression,LR)虽然名中带有回归两个字．但逻辑回归具实一个分类模型，并且广泛应用于各个领域之中。
+虽然现在深度学习相对于这些传统方法更为火热，但实则这些传统方法由于具独特的优势依然广泛应用于各个领域中。
+而对于逻辑回归，最为突出的两点就是其模型简单和模型的可解释性强。
+回归模型的优劣势：
+·优点：实现简单，易于理解和实现；计算代价不高，速度很快，存储资源低；
+·缺点：容易欠似合，分类精度可能不高。
+1．1逻辑回归的应用
+逻辑回归模型广泛用于各个领域，包括机器学习，大多数医学领域和社会科学。也是一个理解数据的好工具。
+但同时由于其本质上是一个线性的分类器所以不能应对较为复杂的数据情况。
+很多时候我们也会拿逻辑回归模型去做一些任务尝试的基线（基础水平〕。
 
-You can use the [editor on GitHub](https://github.com/oumiga12/oumiga12.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oumiga12/oumiga12.GitHub.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+转自：https://dsw-dev.data.aliyun.com/?spm=5176.20222472.J_3678908510.1.1a0b67c2UeRr4Y#/?fileUrl=http://tianchi-media.oss-cn-beijing.aliyuncs.com/DSW/1back/back.ipynb&fileName=back.ipynb
