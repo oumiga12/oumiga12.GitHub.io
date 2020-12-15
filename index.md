@@ -37,13 +37,19 @@
 #### 2.1逻辑回归python代码实践
 1. 函数库导入
 
-`## 基础函数库
-import numpy as np
-## 导入画图库
-import matplotlib.pyplot as plt
-import seaborn as sns
-## 导入逻辑回归模型函数
-from sklearn.linear_model import LogisticRegression`
+`## 基础函数库`
+
+`import numpy as np`
+
+`## 导入画图库`
+
+`import matplotlib.pyplot as plt`
+
+`import seaborn as sns`
+
+`## 导入逻辑回归模型函数`
+
+`from sklearn.linear_model import LogisticRegression`
 
 
 
