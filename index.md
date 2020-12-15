@@ -34,7 +34,7 @@
 3. 模型参数查看
 4. 数据和模型可视化
 5. 模型预测
-#### 2.1逻辑回归python代码实践
+#### 2.2逻辑回归python代码实践
 1. 函数库导入
 
 `## 基础函数库`
@@ -51,9 +51,63 @@
 
 `from sklearn.linear_model import LogisticRegression`
 
+2. 模型训练
 
+`x_features = np.array([[-1,-2],[-2,-1],[-3,-2],[1,3],[2,1],[3,2]])`
 
+`y_label = np.array([0,0,0,1,1,1])`
 
+`lr_clf = LogisticRegression()`
 
+`lr_clf = lr_clf.fit(x_features,y_label) #其拟合方程为 y=w0+w1*x1+w2*x2`
 
+3. 模型参数查看
+
+`print('the weight of Logistic Regression:',lr_clf.coef_)`
+
+`print('the intercept(w0) of Logistic Resgression:',lr_clf.intercept_)`
+
+Logistic回归的权重：[[0.73455784 0.69539712]]
+
+Logistic回归的截距（w0）：[-0.13139986]
+
+4. 数据和模型可视化
+
+`plt.figure()`
+
+`plt.scatter(x_features[:,0],x_features[:,1],c=y_label,s=50,cmap='viridis')`
+
+`plt.title('Dataset')`
+
+`plt.show()`
+
+5. 模型预测
+
+`x_features_new1 = np.array([[0,-1]])`
+
+`x_features_new2 = np.array([[1,2]])`
+
+`y_label_new1_predict = lr_clf.predict(x_features_new1)`
+
+`y_label_new2_predict = lr_clf.predict(x_features_new2)`
+
+`print('The New point 1 predict class:\n',y_label_new1_predict)`
+
+`print('The New point 2 predict class:\n',y_label_new2_predict)`
+
+`y_label_new1_predict_proba = lr_clf.predict_proba(x_features_new1)`
+
+`y_label_new2_predict_proba = lr_clf.predict_proba(x_features_new2)`
+
+`print('The New point 1 predict Probability of each class:\n',y_label_new1_predict_proba)`
+
+`print('The New point 2 predict Probability of each class:\n',y_label_new2_predict_proba)`
+
+新的点1预测类：[0]
+
+新的点2预测类：[1]
+
+新的第1点预测为每一类的概率：[[0.69567724 0.30432276]]
+
+新的第2点预测为每一类的概率：[[0.11983936 0.88016064]]
 
