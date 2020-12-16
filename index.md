@@ -179,8 +179,11 @@ Logistic回归的截距（w0）：[-0.13139986]
 
 ![pic](https://github.com/oumiga12/oumiga12.GitHub.io/blob/main/3Dscatter.png)
 
+<img src="https://github.com/oumiga12/oumiga12.GitHub.io/blob/main/3Dscatter.png" width="%50" height="%50" />
+
 ![pic](https://github.com/oumiga12/oumiga12.GitHub.io/blob/main/3Dscatter1.png)
 
+<img src="https://github.com/oumiga12/oumiga12.GitHub.io/blob/main/3Dscatter1.png" width="%50" height="%50" />
 
 
 
