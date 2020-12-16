@@ -111,3 +111,92 @@ Logistic回归的截距（w0）：[-0.13139986]
 
 新的第2点预测为每一类的概率：[[0.11983936 0.88016064]]
 
+# 天池龙珠计划 机器学习训练营 day3
+### 3基于鸢尾花（Iris）数据集的逻辑回归分类实践
+#### 3.1逻辑回归代码流程
+1. 库函数导入
+
+`import numpy as np  ##科学计算基础包`
+
+`import pandas as pd  ##数据分析处理包`
+
+`import matplotlib.pyplot as plt  ##绘图包`
+
+`import seaborn as sns  ##绘图包`
+
+数据集内容：
+
+1. 花萼长度 sepal length
+2. 花萼宽度 sepal width
+3. 花瓣长度 petal length
+4. 花瓣宽度 petal width
+5. 分类标签（0,1，2）
+
+2. 数据读取
+
+`from sklearn.datasets import load_iris`
+
+`data = load_iris()`
+
+`iris_target = data.target`
+
+`iris_features = pd.DataFrame(data=data.data, columns=data.feature_names)`
+
+3. 数据信息简单查看
+
+`iris_features.info()`
+
+`iris_features.head()`
+
+`iris_features.tail()`
+
+`iris_target`
+
+`pd.Series(iris_target).value_counts() ##查看每个类别数量`
+
+`iris_features.describe() ##对特征的统计描述`
+
+4. 可视化描述
+
+合并标签和特征信息
+
+`iris_all = iris_features.copy()`
+
+`iris_all['target'] = iris_target`
+
+特征与标签组合的散点可视化
+
+`sns.pairplot(data=iris_all,diag_kind='hist', hue='target')`
+
+`plt.show()`
+
+`for col in iris_features.columns:`
+
+`  sns.boxplot(x='target', y=col, saturation=0.5, palette='pastel', data=iris_all) ##箱型图`
+
+`  plt.title(col)`
+
+`  plt.show()`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
