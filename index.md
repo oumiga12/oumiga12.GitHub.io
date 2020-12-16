@@ -175,12 +175,11 @@ Logistic回归的截距（w0）：[-0.13139986]
 `  sns.boxplot(x='target', y=col, saturation=0.5, palette='pastel', data=iris_all) ##箱型图`
 
 `  plt.title(col)`
-
 `  plt.show()`
 
 ![pic](https://github.com/oumiga12/oumiga12.GitHub.io/blob/main/3Dscatter.png)
 
-
+![pic](https://github.com/oumiga12/oumiga12.GitHub.io/blob/main/3Dscatter1.png)
 
 
 
