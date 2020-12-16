@@ -178,7 +178,7 @@ Logistic回归的截距（w0）：[-0.13139986]
 
 `  plt.show()`
 
-
+![pic](https://github.com/oumiga12/oumiga12.GitHub.io/blob/main/3Dscatter.png)
 
 
 
