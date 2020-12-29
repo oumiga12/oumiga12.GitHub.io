@@ -130,7 +130,7 @@ Logistic回归的截距（w0）：[-0.13139986]
 2. 花萼宽度 sepal width
 3. 花瓣长度 petal length
 4. 花瓣宽度 petal width
-5. 分类标签（0,1，2）
+5. 分类标签（0，1，2）
 
 2. 数据读取
 
